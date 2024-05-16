@@ -4,7 +4,7 @@ let getMemeBtn = document.getElementById("get-meme-btn");
 
 let url = " https://meme-api.com/gimme/";
 //Array of subreddits of your choice
-let subreddits = ["wholesomememes", "memes", "dogmemes", "dankmemes"];
+let subreddits = ["wholesomemes", "memes", "dogmemes", "dankmemes"];
 
 let getMeme = () => {
   let randomSubreddit =
